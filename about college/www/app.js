@@ -69,7 +69,7 @@ angular.module('MyApp', [
       views: {
         menuContent: {
           templateUrl: 'dashboard/about.html',
-          controller: 'DashboardCtrl',
+          controller: 'ComponentsCtrl',
           resolve: resolve
         }
       }
@@ -91,7 +91,7 @@ angular.module('MyApp', [
       views: {
         menuContent: {
           templateUrl: 'dashboard/rules.html',
-          controller: 'DashboardCtrl',
+          controller: 'ComponentsCtrl',
           resolve: resolve
         }
       }
@@ -102,7 +102,7 @@ angular.module('MyApp', [
       views: {
         menuContent: {
           templateUrl: 'dashboard/courses.html',
-          controller: 'DashboardCtrl',
+          controller: 'ComponentsCtrl',
           resolve: resolve
         }
       }
@@ -124,7 +124,7 @@ angular.module('MyApp', [
       views: {
         menuContent: {
           templateUrl: 'dashboard/viewattendance.html',
-          controller: 'DashboardCtrl',
+          controller: 'ComponentsCtrl',
           resolve: resolve
         }
       }
@@ -135,7 +135,7 @@ angular.module('MyApp', [
       views: {
         menuContent: {
           templateUrl: 'dashboard/viewresult.html',
-          controller: 'DashboardCtrl',
+          controller: 'ComponentsCtrl',
           resolve: resolve
         }
       }
