@@ -80,7 +80,7 @@ angular.module('MyApp', [
       views: {
         menuContent: {
           templateUrl: 'dashboard/facilities.html',
-          controller: 'DashboardCtrl',
+          controller: 'ComponentsCtrl',
           resolve: resolve
         }
       }
@@ -113,7 +113,7 @@ angular.module('MyApp', [
       views: {
         menuContent: {
           templateUrl: 'dashboard/contact.html',
-          controller: 'DashboardCtrl',
+          controller: 'ComponentsCtrl',
           resolve: resolve
         }
       }

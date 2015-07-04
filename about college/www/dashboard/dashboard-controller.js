@@ -28,4 +28,22 @@ angular.module('MyApp.controllers').controller('DashboardCtrl',
           $scope.name = "";
         }
   //console.log('HomeTabCtrl');
-  });
+  })
+  
+  .controller('ComponentsCtrl', function($scope, $stateParams) {
+    ionic.material.ink.displayEffect();
+
+    // Toggle Code Wrapper
+    var code = document.getElementsByClassName('code-wrapper');
+    for (var i = 0; i < code.length; i++) {
+        code[i].addEventListener('click', function() {
+            this.classList.toggle('active');
+            
+        });
+    }
+})
+  
+  
+  
+  
+  ;
